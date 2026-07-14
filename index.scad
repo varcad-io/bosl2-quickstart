@@ -1,4 +1,4 @@
-include <@bosl2/std.scad>;
+use <@bosl2/std.scad>;
 
 width = is_undef(width) ? 30 : width;
 depth = is_undef(depth) ? 20 : depth;
