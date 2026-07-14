@@ -1,0 +1,6 @@
+{
+  "title": "BOSL2 Quickstart",
+  "entryPath": "/index.scad",
+  "linkedLibraries": ["BOSL2"],
+  "features": ["openscad", "bosl2", "widgets", "quickstart"]
+}
