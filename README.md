@@ -9,17 +9,14 @@ A minimal introduction to using BOSL2 in a Varcad OpenSCAD project.
 ## What this demonstrates
 
 - linking BOSL2 through Varcad's library manager
-- loading BOSL2's 3D shape module collection
-- creating a rounded cuboid
+- loading BOSL2's lightweight built-in primitive bridge
+- combining its cube and sphere modules into a rounded cuboid
 - changing dimensions interactively with widgets
 
 ## Library import
 
 ```scad
-// Ensure precompiled BOSL2 modules can read their standard-library guard.
-_BOSL2_STD = true;
-
-use <@bosl2/shapes3d.scad>;
+use <@bosl2/builtins.scad>;
 ```
 
 Open the project in Varcad, adjust the width, depth, height, and rounding controls, and render the result.
