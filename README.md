@@ -16,6 +16,9 @@ A minimal introduction to using BOSL2 in a Varcad OpenSCAD project.
 ## Library import
 
 ```scad
+// Ensure precompiled BOSL2 modules can read their standard-library guard.
+_BOSL2_STD = true;
+
 use <@bosl2/shapes3d.scad>;
 ```
 
