@@ -14,7 +14,7 @@ A minimal introduction to using BOSL2 in a Varcad OpenSCAD project.
 ## Library import
 
 ```scad
-include </Libraries/BOSL2/std.scad>;
+include <@bosl2/std.scad>;
 ```
 
 Open the project in Varcad, adjust the width, depth, height, and rounding controls, and render the result.
